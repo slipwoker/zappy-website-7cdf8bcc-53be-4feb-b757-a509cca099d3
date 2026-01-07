@@ -1,47 +1,57 @@
-# Business — Generative Engine Optimization Map
+# YESH LI (יש לי) — Generative Engine Optimization Map
+
+> A E-commerce / Shopping / Deal Aggregation business.
 
 ---
 
 ## Pages
 
 ### Home
-https://example.com
+https://yesh-li.zappy5.app
 Discover smart discount comparison across loyalty programs with YESH LI. Find the best deals instantly and save more on every purchase!
 
 ### Services
-https://example.com/services
+https://yesh-li.zappy5.app/services
 Explore YESH LI's comprehensive discount comparison services for retail, travel, dining, and more. Maximize savings across all loyalty programs!
 
 ### About
-https://example.com/about
+https://yesh-li.zappy5.app/about
 Learn about YESH LI's mission to simplify discount comparison across loyalty programs. Discover our innovative mad max interceptor technology and team.
 
 ### Contact
-https://example.com/contact
+https://yesh-li.zappy5.app/contact
 Contact YESH LI for questions about our discount comparison services. Get support with cal state university long beach loyalty programs and more!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://yesh-li.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://yesh-li.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://yesh-li.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About YESH LI (יש לי)
+YESH LI (יש לי) is a business in the E-commerce / Shopping / Deal Aggregation industry.
+
+## Target Audience
+Israeli shoppers looking for best deals and discounts
+
+## Industry
+E-commerce / Shopping / Deal Aggregation
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://yesh-li.zappy5.app/sitemap.xml
+- **Robots.txt**: https://yesh-li.zappy5.app/robots.txt
