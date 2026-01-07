@@ -1832,3 +1832,310 @@ body.accessibility-widget-visible ._access-menu {
     display: none !important;
   }
 }
+
+/* === AI CUSTOMIZATION ADDITIONS === */
+/* RTL and Hebrew Language Support */
+html[lang="he"], html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[lang="he"] body, html[dir="rtl"] body {
+  font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Update primary color to Electric Indigo */
+:root {
+  --primary-color: #6366F1;
+  --secondary-color: #EEF2FF;
+  --accent-color: #4F46E5;
+}
+
+/* Language Switcher Styles */
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 2px solid var(--border-color);
+  color: var(--nav-color);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.lang-btn.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+}
+
+/* Categories Menu Section */
+.categories-menu {
+  padding: 40px 20px;
+  background: var(--bg-white);
+}
+
+.categories-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.categories-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.categories-scroll::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: 4px;
+}
+
+.categories-scroll::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.category-card {
+  min-width: 180px;
+  background: var(--bg-light);
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.category-icon {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.category-card h3 {
+  font-size: 16px !important;
+  margin-bottom: 4px !important;
+}
+
+.category-label {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.aliexpress-card .category-icon {
+  color: #FF6600;
+}
+
+/* Comparison Grid Section */
+.comparison-grid-section {
+  padding: 60px 20px;
+  background: var(--bg-light);
+}
+
+.comparison-grid-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 24px;
+}
+
+.loyalty-club-card {
+  background: var(--bg-white);
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.loyalty-club-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.club-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.club-header h3 {
+  font-size: 20px !important;
+  margin: 0 !important;
+  color: var(--primary-color);
+}
+
+.club-badge {
+  background: var(--primary-color);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.deal-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: var(--bg-light);
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.deal-item:hover {
+  background: var(--secondary-color);
+}
+
+.deal-discount {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-color);
+  min-width: 60px;
+  text-align: center;
+}
+
+.deal-info {
+  flex: 1;
+}
+
+.deal-store {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+  color: var(--text-color);
+}
+
+.deal-expiry {
+  font-size: 13px !important;
+  color: #64748b;
+  margin: 4px 0 0 0 !important;
+}
+
+/* RTL Mobile Menu Positioning */
+@media (max-width: 768px) {
+  html[dir="rtl"] .mobile-toggle,
+  html[lang="he"] .mobile-toggle {
+    right: 15px;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .phone-header-btn,
+  html[lang="he"] .phone-header-btn {
+    left: 15px;
+    right: auto;
+  }
+  
+  html[dir="rtl"] .nav-menu,
+  html[lang="he"] .nav-menu {
+    right: 0;
+    left: auto;
+  }
+  
+  html[dir="rtl"] .whatsapp-float,
+  html[lang="he"] .whatsapp-float {
+    left: 20px;
+    right: auto;
+  }
+  
+  .language-switcher {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+  
+  .lang-btn {
+    width: 100%;
+  }
+}
+
+/* Bento Grid Modern Styling */
+.feature-card,
+.service-card,
+.testimonial-card,
+.benefit-item,
+.value-card,
+.mission-card,
+.loyalty-club-card,
+.category-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+/* Update button colors */
+.btn-primary {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.nav-cta-btn {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.nav-cta-btn:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* Update feature icons */
+.feature-icon,
+.category-icon,
+.mission-icon {
+  color: var(--primary-color);
+}
+
+/* Update step numbers */
+.step-number {
+  background: var(--primary-color);
+}
+
+/* Update contact icons */
+.contact-icon {
+  background: var(--primary-color);
+}
+
+/* Update testimonial author */
+.testimonial-author strong {
+  color: var(--primary-color);
+}
+
+/* Update by-numbers section */
+.by-numbers {
+  background: var(--primary-color);
+}
