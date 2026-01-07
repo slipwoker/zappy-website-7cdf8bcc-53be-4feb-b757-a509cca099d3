@@ -1,6 +1,4 @@
-# YESH LI (יש לי) — Generative Engine Optimization Map
-
-> A E-commerce / Shopping / Deal Aggregation business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About YESH LI (יש לי)
-YESH LI (יש לי) is a business in the E-commerce / Shopping / Deal Aggregation industry.
-
-## Target Audience
-Israeli shoppers looking for best deals and discounts
-
-## Industry
-E-commerce / Shopping / Deal Aggregation
-
+## About Business
 ---
 
 # Additional Resources
